@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    container_name: parent-phone-sos
+    ports:
+      - "${PORT:-8000}:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - PREFERRED_PROVIDER=${PREFERRED_PROVIDER:-openai}
+      - OPENAI_MODEL=${OPENAI_MODEL:-gpt-4o}
+      - ANTHROPIC_MODEL=${ANTHROPIC_MODEL:-claude-opus-4-6}
+      - HOST=0.0.0.0
+      - PORT=8000
+      - DEBUG=${DEBUG:-False}
+      - MAX_IMAGE_SIZE_MB=${MAX_IMAGE_SIZE_MB:-20}
+    volumes:
+      - ./src:/app/src
+      - ./web:/app/web
+      - ./tests:/app/tests
+    networks:
+      - parent-phone-sos-network
+    restart: unless-stopped
+
+networks:
+  parent-phone-sos-network:
+    driver: bridge

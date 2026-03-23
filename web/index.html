@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Phone SOS - Remote Phone Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <span class="emoji">📱</span> Parent Phone SOS
+                </h1>
+                <p class="subtitle">AI-Powered Remote Phone Support for Parents</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Upload Section -->
+            <div class="upload-section">
+                <h2>Step 1: Upload Screenshot</h2>
+
+                <div class="drop-zone" id="dropZone">
+                    <div class="drop-zone-content">
+                        <div class="drop-icon">📸</div>
+                        <p class="drop-text">Drag and drop your screenshot here</p>
+                        <p class="drop-subtext">or</p>
+                        <button class="btn-primary" id="uploadBtn">Click to Select File</button>
+                    </div>
+                </div>
+
+                <input type="file" id="fileInput" accept="image/*" style="display: none;">
+
+                <div id="fileInfo" class="file-info" style="display: none;">
+                    <p id="fileName"></p>
+                    <button class="btn-secondary" id="clearFileBtn">Clear</button>
+                </div>
+            </div>
+
+            <!-- Question Section -->
+            <div class="question-section">
+                <h2>Step 2: Describe Your Problem</h2>
+
+                <textarea
+                    id="questionInput"
+                    class="textarea"
+                    placeholder="例如: 我想连接WiFi / I want to connect to WiFi..."
+                    rows="4"
+                ></textarea>
+
+                <p class="hint">Tip: Be specific about what you're trying to do (e.g., 'How do I increase font size?')</p>
+            </div>
+
+            <!-- Provider Section -->
+            <div class="provider-section">
+                <label>AI Provider:</label>
+                <select id="providerSelect" class="select">
+                    <option value="">Use Default</option>
+                    <option value="openai">OpenAI (GPT-4o)</option>
+                    <option value="anthropic">Anthropic (Claude)</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <button class="btn-analyze" id="analyzeBtn">
+                <span class="btn-icon">✨</span>
+                Analyze & Get Instructions
+            </button>
+
+            <!-- Loading State -->
+            <div id="loadingIndicator" class="loading-indicator" style="display: none;">
+                <div class="spinner"></div>
+                <p>Analyzing your screenshot with AI...</p>
+            </div>
+
+            <!-- Error Message -->
+            <div id="errorMessage" class="error-message" style="display: none;">
+                <p id="errorText"></p>
+                <button class="btn-secondary" onclick="clearError()">Dismiss</button>
+            </div>
+
+            <!-- Results Section -->
+            <div id="resultsSection" class="results-section" style="display: none;">
+                <h2>Your Step-by-Step Instructions</h2>
+
+                <!-- Annotated Image -->
+                <div class="image-container" id="imageContainer" style="display: none;">
+                    <h3>Annotated Screenshot</h3>
+                    <img id="annotatedImage" src="" alt="Annotated screenshot" class="annotated-image">
+                    <button class="btn-secondary" id="downloadImageBtn">📥 Download Image</button>
+                </div>
+
+                <!-- Analysis Summary -->
+                <div class="summary-box">
+                    <p id="summaryText"></p>
+                    <div class="metadata">
+                        <span id="difficultyBadge"></span>
+                        <span id="timeBadge"></span>
+                        <span id="providerBadge"></span>
+                    </div>
+                </div>
+
+                <!-- Steps -->
+                <div class="steps-container" id="stepsContainer"></div>
+
+                <!-- Copy Button -->
+                <button class="btn-secondary" id="copyStepsBtn">
+                    <span>📋</span>
+                    Copy All Steps to Clipboard
+                </button>
+
+                <!-- Share Section -->
+                <div class="share-section">
+                    <h3>Share with Your Parents</h3>
+                    <p>Use these step-by-step instructions to guide your parents remotely:</p>
+                    <textarea id="shareText" class="textarea textarea-readonly" readonly></textarea>
+                    <button class="btn-secondary" id="copyShareBtn">
+                        <span>📋</span>
+                        Copy for Sharing
+                    </button>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2>Common Problems (Quick FAQ)</h2>
+                <div class="faq-container" id="faqContainer"></div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made with ❤️ to help families stay connected</p>
+            <p class="footer-links">
+                <a href="https://github.com" target="_blank">GitHub</a> •
+                <a href="#privacy">Privacy</a> •
+                <a href="#terms">Terms</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
