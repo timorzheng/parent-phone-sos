@@ -4,8 +4,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
 [![GitHub Stars](https://img.shields.io/github/stars/timorzheng/parent-phone-sos?style=social)](https://github.com/timorzheng/parent-phone-sos)
+[![在线演示](https://img.shields.io/badge/🚀_在线演示-GitHub_Pages-orange)](https://timorzheng.github.io/parent-phone-sos/)
 
 **AI 驱动的父母手机远程支持** 🚀
+
+### 👉 [在线体验 Demo](https://timorzheng.github.io/parent-phone-sos/) 👈
 
 帮助你的父母通过发送截图来远程使用他们的手机。我们的 AI 分析问题，生成分步说明，并在截图上用红圈和箭头标注，这样他们就可以轻松跟随。
 

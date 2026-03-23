@@ -4,8 +4,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
 [![GitHub Stars](https://img.shields.io/github/stars/timorzheng/parent-phone-sos?style=social)](https://github.com/timorzheng/parent-phone-sos)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-GitHub_Pages-orange)](https://timorzheng.github.io/parent-phone-sos/)
 
 **AI-powered remote phone support for parents** 🚀
+
+### 👉 [Try the Live Demo](https://timorzheng.github.io/parent-phone-sos/) 👈
 
 Help your parents use their phones remotely by sending them a screenshot. Our AI analyzes the problem, generates step-by-step instructions, and annotates the screenshot with red circles and arrows so they can easily follow along.
 
