@@ -397,4 +397,4 @@ API requests have a 60-second timeout for image analysis.
 ## Support
 
 For issues or questions about the API, please open an issue on GitHub:
-https://github.com/yourusername/parent-phone-sos/issues
+https://github.com/timorzheng/parent-phone-sos/issues

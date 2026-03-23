@@ -33,7 +33,7 @@ Want to code? Follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/parent-phone-sos.git
+git clone https://github.com/timorzheng/parent-phone-sos.git
 cd parent-phone-sos
 
 # Create virtual environment

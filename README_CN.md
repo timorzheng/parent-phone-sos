@@ -3,7 +3,7 @@
 [![Python 版本](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/parent-phone-sos?style=social)](https://github.com/yourusername/parent-phone-sos)
+[![GitHub Stars](https://img.shields.io/github/stars/timorzheng/parent-phone-sos?style=social)](https://github.com/timorzheng/parent-phone-sos)
 
 **AI 驱动的父母手机远程支持** 🚀
 
@@ -45,7 +45,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/parent-phone-sos.git
+git clone https://github.com/timorzheng/parent-phone-sos.git
 cd parent-phone-sos
 
 # 创建虚拟环境
@@ -307,8 +307,8 @@ parent-phone-sos/
 ## 📧 支持
 
 - 📬 邮件: support@parentphonesos.com
-- 💬 GitHub Issues: [报告错误](https://github.com/yourusername/parent-phone-sos/issues)
-- 💡 功能请求: [请求功能](https://github.com/yourusername/parent-phone-sos/discussions)
+- 💬 GitHub Issues: [报告错误](https://github.com/timorzheng/parent-phone-sos/issues)
+- 💡 功能请求: [请求功能](https://github.com/timorzheng/parent-phone-sos/discussions)
 
 ---
 
@@ -316,6 +316,6 @@ parent-phone-sos/
 
 **用 ❤️ 构建以帮助家庭保持连接**
 
-[⭐ 在 GitHub 上标星](https://github.com/yourusername/parent-phone-sos) • [🐛 报告错误](https://github.com/yourusername/parent-phone-sos/issues) • [💡 请求功能](https://github.com/yourusername/parent-phone-sos/discussions)
+[⭐ 在 GitHub 上标星](https://github.com/timorzheng/parent-phone-sos) • [🐛 报告错误](https://github.com/timorzheng/parent-phone-sos/issues) • [💡 请求功能](https://github.com/timorzheng/parent-phone-sos/discussions)
 
 </div>

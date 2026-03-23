@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/parent-phone-sos?style=social)](https://github.com/yourusername/parent-phone-sos)
+[![GitHub Stars](https://img.shields.io/github/stars/timorzheng/parent-phone-sos?style=social)](https://github.com/timorzheng/parent-phone-sos)
 
 **AI-powered remote phone support for parents** 🚀
 
@@ -45,7 +45,7 @@ Instead of trying to guess what they're doing over a phone call, they can now:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/parent-phone-sos.git
+git clone https://github.com/timorzheng/parent-phone-sos.git
 cd parent-phone-sos
 
 # Create virtual environment
@@ -307,8 +307,8 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 ## 📧 Support
 
 - 📬 Email: support@parentphonesos.com
-- 💬 GitHub Issues: [Report a bug](https://github.com/yourusername/parent-phone-sos/issues)
-- 💡 Feature Requests: [Request a feature](https://github.com/yourusername/parent-phone-sos/discussions)
+- 💬 GitHub Issues: [Report a bug](https://github.com/timorzheng/parent-phone-sos/issues)
+- 💡 Feature Requests: [Request a feature](https://github.com/timorzheng/parent-phone-sos/discussions)
 
 ---
 
@@ -316,6 +316,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 **Made with ❤️ to help families stay connected**
 
-[⭐ Star on GitHub](https://github.com/yourusername/parent-phone-sos) • [🐛 Report Bug](https://github.com/yourusername/parent-phone-sos/issues) • [💡 Request Feature](https://github.com/yourusername/parent-phone-sos/discussions)
+[⭐ Star on GitHub](https://github.com/timorzheng/parent-phone-sos) • [🐛 Report Bug](https://github.com/timorzheng/parent-phone-sos/issues) • [💡 Request Feature](https://github.com/timorzheng/parent-phone-sos/discussions)
 
 </div>
